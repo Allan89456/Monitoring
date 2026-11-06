@@ -1,0 +1,46 @@
+{
+  "dateLastModification": "2026-07-23T10:10:35.9772123+02:00",
+  "emailSource": "allan130604@gmail.com",
+  "emailDestination": "allan130604@gmail.com",
+  "emailPassword": "ejhb zwbl bwse vfut",
+  "emailRelay": "smtp.gmail.com",
+  "emailPort": 587,
+  "emailSSL": true,
+  "machines": [
+    {
+      "name": "loopback",
+      "ipAddress": "127.0.0.1",
+      "interval": 2
+    },
+    {
+      "name": "loopback_error1",
+      "ipAddress": "192.0.20.255",
+      "interval": 3
+    },
+    {
+      "name": "loopback_error3",
+      "ipAddress": "192.0.20.255",
+      "interval": 3
+    },
+    {
+      "name": "loopback_error4",
+      "ipAddress": "192.0.20.255",
+      "interval": 3
+    },
+    {
+      "name": "loopback_error5",
+      "ipAddress": "192.0.20.255",
+      "interval": 3
+    },
+    {
+      "name": "loopback_error6",
+      "ipAddress": "192.0.20.255",
+      "interval": 3
+    },
+    {
+      "name": "loopback_error7",
+      "ipAddress": "192.0.20.255",
+      "interval": 3
+    }
+  ]
+}

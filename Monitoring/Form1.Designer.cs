@@ -1,0 +1,64 @@
+﻿namespace Monitoring {
+    partial class Form1 {
+        /// <summary>
+        ///  Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        ///  Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing) {
+            if (disposing && (components != null)) {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        ///  Required method for Designer support - do not modify
+        ///  the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent() {
+            checkBoxAlwaysTop = new CheckBox();
+            SuspendLayout();
+            int endPlacmeent = manager.GetEndPlacement();
+            // 
+            // checkBoxAlwaysTop
+            // 
+            checkBoxAlwaysTop.AutoSize = true;
+            checkBoxAlwaysTop.Location = new Point(550, 220 + endPlacmeent);
+            checkBoxAlwaysTop.Size = new Size(215, 25);
+            checkBoxAlwaysTop.Name = "checkBoxAlwaysTop";
+            checkBoxAlwaysTop.Text = "Always on top";
+            checkBoxAlwaysTop.Checked = true;
+            checkBoxAlwaysTop.CheckedChanged += ChangeTopMost;
+            // 
+            // Form1
+            // 
+            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(1200, 340 + endPlacmeent);
+            Controls.Add(checkBoxAlwaysTop);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
+            Margin = new Padding(3, 4, 3, 4);
+            MaximizeBox = false;
+            MinimizeBox = false;
+            Name = "Form1";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Monitoring";
+            TopMost = true;
+            FormClosing += Form1_FormClosing;
+            Shown += Form1_Shown;
+            ResumeLayout(false);
+            PerformLayout();
+        }
+
+        #endregion
+
+        private CheckBox checkBoxAlwaysTop;
+    }
+}

@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="Configuration/Configuration.csproj" />
+  <Project Path="Monitoring.UnitTests/Monitoring.UnitTests.csproj" Id="b7a4c59b-7d0e-409d-8233-9cad2af67341" />
+  <Project Path="Monitoring/Monitoring.csproj" />
+</Solution>
